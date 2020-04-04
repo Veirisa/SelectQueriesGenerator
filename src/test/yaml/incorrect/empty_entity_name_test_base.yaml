@@ -1,0 +1,7 @@
+schemas:
+  - name: sakila
+    tables:
+      - name: actor
+        columns:
+          - name:
+            type: integer

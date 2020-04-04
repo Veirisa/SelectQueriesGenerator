@@ -1,0 +1,57 @@
+schemas:
+  - name: sakila
+    tables:
+      - name: actor
+        columns:
+          - name: actor_id
+            type: integer
+          - name: first_name
+            type: varchar(45)
+          - name: last_name
+            type: varchar(45)
+          - name: last_update
+            type: date
+          - name: has_kids
+            type: boolean
+      - name: address
+        columns:
+          - name: address_id
+            type: integer
+          - name: city_id
+            type: integer
+  - name: store
+    tables:
+      - name: product
+        columns:
+          - name: product_id
+            type: integer
+          - name: product_name
+            type: varchar(20)
+          - name: in_stock
+            type: boolean
+          - name: last_arrival
+            type: date
+      - name: category
+        columns:
+          - name: category_id
+            type: integer
+          - name: category_name
+            type: varchar(100)
+  - name: scheme1_key
+    tables:
+      - name: table11
+        columns:
+      - name: table12
+        columns:
+  - name: scheme2
+    tables:
+      - name: table21_key
+        columns:
+      - name: table22
+        columns:
+  - name: empty_scheme
+    tables:
+  - name: scheme
+    tables:
+      - name: empty_base
+        columns:

@@ -1,0 +1,9 @@
+schemas:
+  - name: sakila
+    tables:
+      - name: actor
+        columns:
+          - name: actor_id
+            type: integer
+          - name: first_name
+            type: varchar(-45)

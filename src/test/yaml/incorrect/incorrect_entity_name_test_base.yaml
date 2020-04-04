@@ -1,0 +1,3 @@
+schemas:
+  - name: dot.name
+    tables:

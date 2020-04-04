@@ -1,0 +1,15 @@
+schemas:
+  - name: sakila
+    tables:
+      - name: actor
+        columns:
+      - name: duplicate
+        columns:
+      - name: address
+        columns:
+      - name: film
+        columns:
+      - name: duplicate
+        columns:
+      - name: language
+        columns:
